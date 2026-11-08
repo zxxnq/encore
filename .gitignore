@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+encore_data/
+old_clips/
+old_voice_data/
+team_recordings/
+*.wav
+*.m4a
+.env

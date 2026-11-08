@@ -1,0 +1,14 @@
+# core (tests and the synthetic demo need only these)
+numpy>=1.24
+scipy>=1.10
+
+# live microphone + playback (needs PortAudio: macOS `brew install portaudio`,
+# Debian/Ubuntu `sudo apt install libportaudio2`; Windows wheels include it)
+sounddevice>=0.4
+
+# gesture cues from a webcam (uses MediaPipe's legacy FaceMesh API)
+opencv-python>=4.8
+mediapipe>=0.10.14,<0.10.22
+
+# optional: ElevenLabs voice clone for sentences that were never recorded
+requests>=2.31

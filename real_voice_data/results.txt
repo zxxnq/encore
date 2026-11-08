@@ -1,0 +1,35 @@
+ENCORE REAL-VOICE TEST  (2026-11-07 16:13)
+30 clips from 1 people: ali
+
+scenario                           clips   right  no phrase  WRONG phrase
+Fresh voice, fresh cues               15     47%        53%            0%
+   Does it work at all? (Alex at 9 AM)
+Tired voice, fresh cues               15      0%       100%            0%
+   Cues taught in the morning, used tired (Alex at 4 PM)
+Tired voice, re-taught cues           15     20%        80%            0%
+   After re-recording the cues with the tired voice
+Tired voice, both voices taught       15     20%        80%            0%
+   Morning examples kept AND tired ones added
+
+right = correct phrase played; no phrase = nothing played, user can retry;
+WRONG phrase = the worst outcome, a different phrase played
+
+WHY clips played nothing:
+   Fresh voice, fresh cues         mixed up two words 8
+                                   top guess was actually right in 8 of 8 of these
+                                   words mixed up: okay / water (3x), help / recap (1x), stir / water (1x), help / okay (1x), help / water (1x), help / stir (1x)
+   Tired voice, fresh cues         mixed up two words 15
+                                   top guess was actually right in 10 of 15 of these
+                                   words mixed up: okay / stir (4x), recap / water (3x), help / okay (3x), stir / water (2x), help / water (2x), okay / water (1x)
+   Tired voice, re-taught cues     mixed up two words 12
+                                   top guess was actually right in 9 of 12 of these
+                                   words mixed up: help / recap (4x), stir / water (4x), recap / water (1x), okay / stir (1x), help / water (1x), okay / water (1x)
+   Tired voice, both voices taught mixed up two words 12
+                                   top guess was actually right in 9 of 12 of these
+                                   words mixed up: help / recap (4x), stir / water (4x), recap / water (1x), okay / stir (1x), help / water (1x), okay / water (1x)
+   ali's tired voice was x1.00 slower than normal (Alex: x1.40 by 4 PM)
+
+Per person (% right)    fresh    tired   re-taught     both
+   ali                   47%       0%         20%      20%
+
+Note: the tired voice is imitated by healthy teammates, not real ALS speech.

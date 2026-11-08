@@ -1,0 +1,37 @@
+{
+  "_note": "Starter decks built from Alex Chen's case file. Every line is a suggestion: the user should rewrite them in his own words before recording, and add his own jokes.",
+  "decks": {
+    "classroom": [
+      "Good morning, everyone. Phones away, notebooks out.",
+      "Can everyone at the back hear me? Thumbs up if you can.",
+      "Let me say that one more time.",
+      "Eyes on the board for a second, please.",
+      "Turn to your partner and explain that in your own words.",
+      "Great question. Hold that thought for one minute.",
+      "Here's today's recap.",
+      "Five minutes left. Start wrapping up.",
+      "If you get stuck tonight, email me. I mean it."
+    ],
+    "kitchen": [
+      "Maya, can you chop the onions for me?",
+      "Leo, give that a stir, please.",
+      "Turn the heat down to medium.",
+      "Taste that and tell me if it needs salt.",
+      "Can you grab the heavy pot for me?",
+      "Dinner in ten minutes. Set the table."
+    ],
+    "meals": [
+      "I'm taking my time with this. Keep talking, I'm listening.",
+      "I'm fine, just going slowly."
+    ],
+    "family": [
+      "I love you.",
+      "Go Leafs."
+    ],
+    "home": [
+      {"text": "I'm home and I'm okay.", "action": "notify:checkin"},
+      {"text": "Can you call me when you get a minute?", "action": "notify:callme"},
+      {"text": "I need help. Please come now.", "action": "notify:help"}
+    ]
+  }
+}
